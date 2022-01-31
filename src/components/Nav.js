@@ -1,7 +1,10 @@
 import { render } from "@testing-library/react";
 import React from "react";
 import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import {GoMarkGithub} from "react-icons/go";
+import {AiFillLinkedin} from "react-icons/ai";
+import "../App.css";
 
 
 function Header() {
@@ -29,8 +32,8 @@ function Header() {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link href="https://github.com/seb997a">Github</Nav.Link>
-              <Nav.Link href="#deets">LinkedIn</Nav.Link>
+              <Nav.Link href="https://github.com/seb997a"><GoMarkGithub className="nav-logo" /></Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/in/seb-a-67735621b"><AiFillLinkedin className="nav-logo"/></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
