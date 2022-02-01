@@ -10,7 +10,7 @@ import "../App.css";
 function Header() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="xl" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="home">Brainy Shadow</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
