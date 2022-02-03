@@ -1,7 +1,8 @@
 import React from "react";
 import Nav from "../components/Nav";
-import "../App.css"
+import "../App.css";
 import { Button } from "react-bootstrap";
+import MyCard from "../components/MyCard"; 
 
 function Home() {
   return (
@@ -13,8 +14,12 @@ function Home() {
         <p className="body-text">Hi, welcome to my website!</p>
       </div>
       <Button href="resume" variant="primary" size="sm">
-      Small button
-    </Button>{' '}
+        Resume
+      </Button>{" "}
+      <div style={{width: "30rem", padding: "5rem"}}>
+      <MyCard/>
+
+      </div>
     </>
   );
 }
