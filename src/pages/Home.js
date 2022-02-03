@@ -17,8 +17,7 @@ function Home() {
         Resume
       </Button>{" "}
       <div style={{width: "30rem", padding: "5rem"}}>
-      <MyCard/>
-
+      <MyCard name="DDB V8" videoLink="" projectLink="https://github.com/seb997a/DDB"/>
       </div>
     </>
   );
