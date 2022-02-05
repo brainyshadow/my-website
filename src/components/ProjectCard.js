@@ -4,17 +4,15 @@ import {
   Avatar,
   Stack,
   Typography,
-  IconButton,
   Divider,
-  Switch,
   Chip,
 } from "@mui/material";
-import { grey } from "@mui/material/colors";
 import { Component } from "react";
-import { Button } from "react-bootstrap";
 import "../App.css";
+import { GoMarkGithub } from "react-icons/go";
+import { AiFillYoutube } from "react-icons/ai";
 
-class MyCard extends Component {
+class ProjectCard extends Component {
   constructor(props) {
     super(props);
     console.log(props.name);
@@ -22,13 +20,13 @@ class MyCard extends Component {
       videoLink: props.videoLink,
       githubLink: props.projectLink,
       projectName: props.name,
+      complexity: "Complexity: " + props.complexity,
     };
     this.state = initialState;
   }
 
   render() {
-    const { videoLink, githubLink, projectName } = this.state;
-    console.log(videoLink);
+    const { videoLink, githubLink, projectName, complexity } = this.state;
     return (
       <Card>
         <Box sx={{ p: 2, display: "flex" }}>
@@ -36,10 +34,8 @@ class MyCard extends Component {
             <Typography fontWeight={700}>{projectName}</Typography>
             <Typography variant="body2" color="text.secondary"></Typography>
           </Stack>
-          <a href={videoLink} style={{ margin: "0rem 0rem 0rem 60%" }}>
-            <Avatar style={{ margin: "0rem" }} src="youtube.png" />
-          </a>
         </Box>
+
         <Divider />
 
         <Stack
@@ -48,14 +44,28 @@ class MyCard extends Component {
           justifyContent="space-between"
           sx={{ px: 2, py: 1, bgcolor: "background.default" }}
         >
-          <a href={githubLink}>
-            <Button variant="primary">Learn More</Button>
-          </a>
-          <Button variant="primary">Intermediate</Button>
+          <div>
+            <a
+              style={{ margin: "0.4rem" }}
+              href="https://github.com/seb997a/DDB"
+            >
+              <GoMarkGithub className="nav-logo" />
+            </a>
+            <a
+              style={{ margin: "0.4rem" }}
+              href="https://www.youtube.com/embed/SYQoG84IRUQ"
+            >
+              <AiFillYoutube className="nav-logo" />
+            </a>
+          </div>
+
+          <Typography fontWeight={300}>
+            <Chip label={complexity} />
+          </Typography>
         </Stack>
       </Card>
     );
   }
 }
 
-export default MyCard;
+export default ProjectCard;
