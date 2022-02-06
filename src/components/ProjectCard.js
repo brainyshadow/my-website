@@ -11,8 +11,7 @@ import { Component } from "react";
 import "../App.css";
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillYoutube } from "react-icons/ai";
-import { purple, red } from '@mui/material/colors';
-
+import { purple, red } from "@mui/material/colors";
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -26,10 +25,9 @@ class ProjectCard extends Component {
     };
     this.state = initialState;
   }
-
   render() {
-    const { videoLink, githubLink, projectName, complexity, description } = this.state;
-    const primary = red[500]; // #f44336
+    const { videoLink, githubLink, projectName, complexity, description } =
+      this.state;
 
     return (
       <div className="card-container">
@@ -37,7 +35,9 @@ class ProjectCard extends Component {
           <Box sx={{ p: 2, display: "flex", width: "20rem" }}>
             <Stack spacing={0.5}>
               <Typography fontWeight={700}>{projectName}</Typography>
-              <Typography variant="body2" color="text.secondary" >{description}</Typography>
+              <Typography variant="body2" color="text.secondary">
+                {description}
+              </Typography>
             </Stack>
           </Box>
 
@@ -50,21 +50,15 @@ class ProjectCard extends Component {
             sx={{ px: 2, py: 1, bgcolor: "background.default" }}
           >
             <div>
-              <a
-                style={{ margin: "0.4rem" }}
-                href={githubLink}
-              >
+              <a style={{ margin: "0.4rem" }} href={githubLink}>
                 <GoMarkGithub className="nav-logo" />
               </a>
-              <a
-                style={{ margin: "0.4rem" }}
-                href={videoLink}
-              >
+              <a style={{ margin: "0.4rem" }} href={videoLink}>
                 <AiFillYoutube className="nav-logo" />
               </a>
             </div>
             <Typography fontWeight={300}>
-              <Chip  label={complexity} color="primary"/>
+              <Chip label={complexity} color="primary" />
             </Typography>
           </Stack>
         </Card>

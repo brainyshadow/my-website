@@ -17,7 +17,7 @@ function Header() {
             <Nav className="me-auto">
               <Nav.Link href="about">About Me</Nav.Link>
               <NavDropdown title="Projects" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="project1">DDB V8</NavDropdown.Item>
+                <NavDropdown.Item href="https://github.com/BrainyShadow/DDB">DDB V8</NavDropdown.Item>
                 <NavDropdown.Item href="project2">
                   LED Controller
                 </NavDropdown.Item>
@@ -26,9 +26,11 @@ function Header() {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="project4">Project 4</NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href="/resume">Résumé
+              </Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="https://github.com/seb997a">
+              <Nav.Link href="https://github.com/brainyshadow">
                 <GoMarkGithub className="nav-logo" />
               </Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/seb-a-67735621b">

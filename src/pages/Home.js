@@ -36,9 +36,6 @@ function Home() {
           description="A fooseball scoreboard that automatically senses goals and keeps track of the game's score."
         />
       </div>
-      <Button href="resume" variant="primary" size="sm">
-        Resume
-      </Button>{" "}
     </>
   );
 }
