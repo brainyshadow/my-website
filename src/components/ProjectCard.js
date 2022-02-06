@@ -11,11 +11,12 @@ import { Component } from "react";
 import "../App.css";
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillYoutube } from "react-icons/ai";
+import { purple, red } from '@mui/material/colors';
+
 
 class ProjectCard extends Component {
   constructor(props) {
     super(props);
-    console.log(props.name);
     const initialState = {
       videoLink: props.videoLink,
       githubLink: props.projectLink,
@@ -28,6 +29,8 @@ class ProjectCard extends Component {
 
   render() {
     const { videoLink, githubLink, projectName, complexity, description } = this.state;
+    const primary = red[500]; // #f44336
+
     return (
       <div className="card-container">
         <Card>
@@ -61,7 +64,7 @@ class ProjectCard extends Component {
               </a>
             </div>
             <Typography fontWeight={300}>
-              <Chip label={complexity} />
+              <Chip  label={complexity} color="primary"/>
             </Typography>
           </Stack>
         </Card>
