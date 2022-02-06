@@ -28,42 +28,44 @@ class ProjectCard extends Component {
   render() {
     const { videoLink, githubLink, projectName, complexity } = this.state;
     return (
-      <Card>
-        <Box sx={{ p: 2, display: "flex" }}>
-          <Stack spacing={0.5}>
-            <Typography fontWeight={700}>{projectName}</Typography>
-            <Typography variant="body2" color="text.secondary"></Typography>
+      <div className="card-container">
+        <Card>
+          <Box sx={{ p: 2, display: "flex" }}>
+            <Stack spacing={0.5}>
+              <Typography fontWeight={700}>{projectName}</Typography>
+              <Typography variant="body2" color="text.secondary"></Typography>
+            </Stack>
+          </Box>
+
+          <Divider />
+
+          <Stack
+            direction="row"
+            alignItems="center"
+            justifyContent="space-between"
+            sx={{ px: 2, py: 1, bgcolor: "background.default" }}
+          >
+            <div>
+              <a
+                style={{ margin: "0.4rem" }}
+                href="https://github.com/seb997a/DDB"
+              >
+                <GoMarkGithub className="nav-logo" />
+              </a>
+              <a
+                style={{ margin: "0.4rem" }}
+                href="https://www.youtube.com/embed/SYQoG84IRUQ"
+              >
+                <AiFillYoutube className="nav-logo" />
+              </a>
+            </div>
+
+            <Typography fontWeight={300}>
+              <Chip label={complexity} />
+            </Typography>
           </Stack>
-        </Box>
-
-        <Divider />
-
-        <Stack
-          direction="row"
-          alignItems="center"
-          justifyContent="space-between"
-          sx={{ px: 2, py: 1, bgcolor: "background.default" }}
-        >
-          <div>
-            <a
-              style={{ margin: "0.4rem" }}
-              href="https://github.com/seb997a/DDB"
-            >
-              <GoMarkGithub className="nav-logo" />
-            </a>
-            <a
-              style={{ margin: "0.4rem" }}
-              href="https://www.youtube.com/embed/SYQoG84IRUQ"
-            >
-              <AiFillYoutube className="nav-logo" />
-            </a>
-          </div>
-
-          <Typography fontWeight={300}>
-            <Chip label={complexity} />
-          </Typography>
-        </Stack>
-      </Card>
+        </Card>
+      </div>
     );
   }
 }

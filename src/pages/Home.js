@@ -13,10 +13,32 @@ function Home() {
       <div className="content-container" id="main-area">
         <p className="body-text">Hi, welcome to my website!</p>
       </div>
-      <Button href="resume" variant="primary" size="sm">
-        Resume
-      </Button>{" "}
-      <div style={{ width: "30rem", padding: "5rem" }}>
+      <div className="project-container" id="main-area">
+        <ProjectCard
+          complexity="Medium"
+          name="DDB V8"
+          videoLink="https://mui.com/styles/basics/"
+          projectLink="https://github.com/seb997a/DDB"
+        />
+
+        <ProjectCard
+          complexity="Medium"
+          name="DDB V8"
+          videoLink="https://mui.com/styles/basics/"
+          projectLink="https://github.com/seb997a/DDB"
+        />
+        <ProjectCard
+          complexity="Medium"
+          name="DDB V8"
+          videoLink="https://mui.com/styles/basics/"
+          projectLink="https://github.com/seb997a/DDB"
+        />
+        <ProjectCard
+          complexity="Medium"
+          name="DDB V8"
+          videoLink="https://mui.com/styles/basics/"
+          projectLink="https://github.com/seb997a/DDB"
+        />
         <ProjectCard
           complexity="Medium"
           name="DDB V8"
@@ -24,6 +46,9 @@ function Home() {
           projectLink="https://github.com/seb997a/DDB"
         />
       </div>
+      <Button href="resume" variant="primary" size="sm">
+        Resume
+      </Button>{" "}
     </>
   );
 }
