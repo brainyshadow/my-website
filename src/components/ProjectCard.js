@@ -21,19 +21,20 @@ class ProjectCard extends Component {
       githubLink: props.projectLink,
       projectName: props.name,
       complexity: "Complexity: " + props.complexity,
+      description: props.description,
     };
     this.state = initialState;
   }
 
   render() {
-    const { videoLink, githubLink, projectName, complexity } = this.state;
+    const { videoLink, githubLink, projectName, complexity, description } = this.state;
     return (
       <div className="card-container">
         <Card>
-          <Box sx={{ p: 2, display: "flex" }}>
+          <Box sx={{ p: 2, display: "flex", width: "20rem" }}>
             <Stack spacing={0.5}>
               <Typography fontWeight={700}>{projectName}</Typography>
-              <Typography variant="body2" color="text.secondary"></Typography>
+              <Typography variant="body2" color="text.secondary" >{description}</Typography>
             </Stack>
           </Box>
 
@@ -48,18 +49,17 @@ class ProjectCard extends Component {
             <div>
               <a
                 style={{ margin: "0.4rem" }}
-                href="https://github.com/seb997a/DDB"
+                href={githubLink}
               >
                 <GoMarkGithub className="nav-logo" />
               </a>
               <a
                 style={{ margin: "0.4rem" }}
-                href="https://www.youtube.com/embed/SYQoG84IRUQ"
+                href={videoLink}
               >
                 <AiFillYoutube className="nav-logo" />
               </a>
             </div>
-
             <Typography fontWeight={300}>
               <Chip label={complexity} />
             </Typography>
