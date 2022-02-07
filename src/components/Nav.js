@@ -15,7 +15,7 @@ function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="about">About Me</Nav.Link>
+              <Nav.Link className="spaced-link" href="about">About Me</Nav.Link>
               <NavDropdown title="Projects" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="https://github.com/BrainyShadow/DDB">DDB V8</NavDropdown.Item>
                 <NavDropdown.Item href="project2">
@@ -26,7 +26,7 @@ function Header() {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="project4">Project 4</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/resume">Résumé
+              <Nav.Link className="spaced-link" href="/resume">Résumé
               </Nav.Link>
             </Nav>
             <Nav>
