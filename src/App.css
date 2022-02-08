@@ -29,7 +29,7 @@
 .body-text {
   font-family: sans-serif;
   font-size: 1.5rem;
-  margin: 2rem 0rem 2rem 0rem;
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 .content-container {
@@ -43,6 +43,16 @@
   align-items: center;
   justify-content: center;
   margin: auto;
+}
+
+.title-container{
+  width: 75%;
+  margin: auto;
+}
+
+.grey-container{
+  background-color: #005066;
+  margin: 0;
 }
 
 .card-container {
