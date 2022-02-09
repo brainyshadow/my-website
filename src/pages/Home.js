@@ -7,9 +7,8 @@ import ProjectCard from "../components/ProjectCard";
 function Home() {
   return (
     <>
-      <div className="grey-container">
+      <div className="blue-container">
         <Nav />
-
         <div className="title-container" id="main-area">
           <p className="body-text">Hi, welcome to my website!</p>
           <p className="body-text">
@@ -17,6 +16,15 @@ function Home() {
             developemnt and react skills.
           </p>
         </div>
+        <div className="content-container-center">
+        <p className="body-text">
+           Projects
+          </p>
+        </div>
+        <div className="content-container-center">
+          <hr></hr>
+        </div>
+
         <div className="content-container"></div>
         <div className="project-container" id="main-area">
           <ProjectCard

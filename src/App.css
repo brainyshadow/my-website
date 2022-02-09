@@ -50,8 +50,12 @@
   margin: auto;
 }
 
-.grey-container{
-  background-color: #005066;
+hr{
+  width: 100%;
+}
+
+.blue-container{
+  background-color: #1976D2;
   margin: 0;
 }
 
