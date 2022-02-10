@@ -31,7 +31,7 @@ class ProjectCard extends Component {
 
     return (
       <div className="card-container">
-        <Card>
+        <Card elevation={2}>
           <Box sx={{ p: 2, display: "flex", width: "20rem" }}>
             <Stack spacing={0.5}>
               <Typography fontWeight={700}>{projectName}</Typography>
