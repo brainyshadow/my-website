@@ -31,7 +31,16 @@ class ProjectCard extends Component {
 
     return (
       <div className="card-container">
-        <Card elevation={2}>
+        <Card
+          sx={{
+            alignItems: "center",
+            bgcolor: "#F5F5F5",
+            overflow: "hidden",
+            borderRadius: "12px",
+            boxShadow: 1,
+            fontWeight: "bold",
+          }}
+        >
           <Box sx={{ p: 2, display: "flex", width: "20rem" }}>
             <Stack spacing={0.5}>
               <Typography fontWeight={700}>{projectName}</Typography>
@@ -47,7 +56,7 @@ class ProjectCard extends Component {
             direction="row"
             alignItems="center"
             justifyContent="space-between"
-            sx={{ px: 2, py: 1, bgcolor: "background.default" }}
+            sx={{ px: 2, py: 1, bgcolor: "#A9A9A9" }}
           >
             <div>
               <a style={{ margin: "0.4rem" }} href={githubLink}>
