@@ -6,9 +6,11 @@ import {
   CardContent,
   Typography,
   Divider,
+  CardActions,
+  Button
 } from "@mui/material";
 import "../App.css";
-import { display } from "@mui/system";
+import { Grid } from "@mui/material";
 import { AiFillExclamationCircle } from "react-icons/ai";
 
 function AboutMeCard() {
@@ -22,7 +24,7 @@ function AboutMeCard() {
           borderRadius: "12px",
           boxShadow: 1,
           fontWeight: "bold",
-          margin: "1rem 0rem 1rem 0rem",
+          margin: "1rem ",
         }}
       >
         <CardHeader
@@ -33,7 +35,9 @@ function AboutMeCard() {
             />
           }
           subheader={
-            <Typography variant="title" color="text.primary">Brainy Shadow</Typography>
+            <Typography variant="title" color="text.primary">
+              Brainy Shadow
+            </Typography>
           }
         ></CardHeader>
         <Divider
@@ -45,9 +49,12 @@ function AboutMeCard() {
         ></Divider>
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            I'm a young aspiring developer who loves to code!
+            I'm a young aspiring developer who loves to code! My hobbies include everything from mountain biking to cool projects. Of these projects I like everything from interactive web development to low lovel hardware development.
           </Typography>
         </CardContent>
+        <CardActions>
+          <Button size="small">Learn More</Button>
+        </CardActions>
       </Card>
     </>
   );

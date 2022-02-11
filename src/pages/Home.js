@@ -6,6 +6,7 @@ import ProjectCard from "../components/ProjectCard";
 import { Divider } from "@mui/material";
 import Paper from "@mui/material/Paper";
 import AboutMeCard from "../components/AboutMeCard";
+import SkillsCard from "../components/SkillsCard";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
 
       <div className="title-container" id="main-area">
         <AboutMeCard />
+        <SkillsCard/>
       </div>
       <div className="content-container">
         <Paper
@@ -24,6 +26,7 @@ function Home() {
             borderRadius: "12px",
             boxShadow: 3,
             fontWeight: "bold",
+            margin: "1rem"
           }}
         >
           <div className="content-container-center">
