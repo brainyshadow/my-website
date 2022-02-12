@@ -14,8 +14,12 @@ function Home() {
       <Nav />
 
       <div className="title-container" id="main-area">
-        <AboutMeCard />
-        <SkillsCard/>
+        <div style={{ width: "25%" }}>
+          <AboutMeCard />
+        </div>
+        <div style={{ width: "75%" }}>
+          <SkillsCard />
+        </div>
       </div>
       <div className="content-container">
         <Paper
@@ -26,13 +30,19 @@ function Home() {
             borderRadius: "12px",
             boxShadow: 3,
             fontWeight: "bold",
-            margin: "1rem"
+            margin: "1rem",
           }}
         >
           <div className="content-container-center">
             <p className="body-text">Projects</p>
           </div>
-          <hr></hr>
+          <Divider
+            sx={{
+              width: "90%",
+              display: "flex",
+              margin: "auto",
+            }}
+          ></Divider>
 
           <div className="project-container" id="main-area">
             <ProjectCard

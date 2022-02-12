@@ -44,55 +44,165 @@ function SkillsCard() {
           }
         ></CardHeader>
         <Grid container spacing={2} columns={16}>
-          <Grid item xs={4}>
+          <Grid item xs={5}>
             <Item
               sx={{
                 boxShadow: 0,
               }}
             >
               Languages
+              <Divider></Divider>
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={5}>
             <Item
               sx={{
                 boxShadow: 0,
               }}
             >
-              Tech Stacks
+              Framework/Libraries
+              <Divider></Divider>
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={5}>
             <Item
               sx={{
                 boxShadow: 0,
               }}
-            ></Item>
-          </Grid>
-          <Grid item xs={4}>
-            <Item
-              sx={{
-                boxShadow: 0,
-              }}
-            ></Item>
+            >
+              Additional Tools
+              <Divider></Divider>
+            </Item>
           </Grid>
         </Grid>
-        <Divider
-          sx={{
-            width: "90%",
-            display: "flex",
-            margin: "auto",
-          }}
-        ></Divider>
+
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document or a
-            typeface without relying on meaningful content.
-          </Typography>
+          <Grid container spacing={2} columns={16}>
+            <Grid item xs={5}>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Python
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Javascript, Typescript
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                HTML, CSS
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                C, C++, C#
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Java
+              </Item>
+            </Grid>
+            <Grid item xs={5}>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                React
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Bootstrap
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                MUI
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                MongoDB
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Azure
+              </Item>
+              
+            </Grid>
+            <Grid item xs={5}>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Git, Github
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Jira
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Node.js
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                 
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Microsoft Office
+              </Item>
+            </Grid>
+            <Grid item xs={5}>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              ></Item>
+            </Grid>
+          </Grid>
         </CardContent>
         <CardActions>
-          <Button size="small">See Resume</Button>
+          <Button size="small" href="/resume">
+            See Resume
+          </Button>
         </CardActions>
       </Card>
     </>
