@@ -34,24 +34,27 @@ function SkillsCard() {
           boxShadow: 1,
           fontWeight: "bold",
           margin: "1rem",
+          height: "20rem"
         }}
       >
         <CardHeader
           title={
-            <Typography variant="title" color="text.primary">
+            <Typography variant="title" color="text.primary" >
               Skills
             </Typography>
           }
+          sx={{margin: "0rem"}}
         ></CardHeader>
-        <Grid container spacing={2} columns={16}>
+        <Grid container spacing={2} columns={16} >
           <Grid item xs={5}>
             <Item
               sx={{
                 boxShadow: 0,
+                justifyContent: "center",
               }}
             >
               Languages
-              <Divider></Divider>
+              <Divider sx={{width: "75%", margin: "auto"}}></Divider>
             </Item>
           </Grid>
           <Grid item xs={5}>
@@ -61,7 +64,7 @@ function SkillsCard() {
               }}
             >
               Framework/Libraries
-              <Divider></Divider>
+              <Divider sx={{width: "75%", margin: "auto"}}></Divider>
             </Item>
           </Grid>
           <Grid item xs={5}>
@@ -71,7 +74,7 @@ function SkillsCard() {
               }}
             >
               Additional Tools
-              <Divider></Divider>
+              <Divider sx={{width: "75%", margin: "auto"}}></Divider>
             </Item>
           </Grid>
         </Grid>
@@ -128,6 +131,13 @@ function SkillsCard() {
                   boxShadow: 0,
                 }}
               >
+                Node.js
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
                 Bootstrap
               </Item>
               <Item
@@ -151,7 +161,6 @@ function SkillsCard() {
               >
                 Azure
               </Item>
-              
             </Grid>
             <Grid item xs={5}>
               <Item
@@ -168,20 +177,12 @@ function SkillsCard() {
               >
                 Jira
               </Item>
+
               <Item
                 sx={{
                   boxShadow: 0,
                 }}
-              >
-                Node.js
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                 
-              </Item>
+              ></Item>
               <Item
                 sx={{
                   boxShadow: 0,

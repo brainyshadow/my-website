@@ -7,7 +7,7 @@ import {
   Typography,
   Divider,
   CardActions,
-  Button
+  Button,
 } from "@mui/material";
 import "../App.css";
 import { Grid } from "@mui/material";
@@ -25,6 +25,7 @@ function AboutMeCard() {
           boxShadow: 1,
           fontWeight: "bold",
           margin: "1rem ",
+          height: "20rem"
         }}
       >
         <CardHeader
@@ -39,6 +40,7 @@ function AboutMeCard() {
               Brainy Shadow
             </Typography>
           }
+          sx={{margin: "0.2rem"}}
         ></CardHeader>
         <Divider
           sx={{
@@ -48,12 +50,15 @@ function AboutMeCard() {
           }}
         ></Divider>
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            I'm a young aspiring developer who loves to code! My hobbies include everything from mountain biking to cool projects. Of these projects I like everything from interactive web development to low lovel hardware development.
+          <Typography variant="body1" color="text.secondary">
+            I'm a young aspiring developer who loves to code! My hobbies include
+            everything from mountain biking to cool projects. Of these projects
+            I like everything from interactive web development to low lovel
+            hardware development.
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
+        <CardActions >
+          <Button size="small" href="/about">Learn More</Button>
         </CardActions>
       </Card>
     </>

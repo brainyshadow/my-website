@@ -11,7 +11,10 @@ import { Component } from "react";
 import "../App.css";
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillYoutube } from "react-icons/ai";
-import { purple, red } from "@mui/material/colors";
+import { createTheme } from "@mui/material/styles";
+import { makeStyles } from '@mui/styles';
+
+
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -22,13 +25,19 @@ class ProjectCard extends Component {
       projectName: props.name,
       complexity: "Complexity: " + props.complexity,
       description: props.description,
+      category: props.category,
     };
     this.state = initialState;
   }
   render() {
-    const { videoLink, githubLink, projectName, complexity, description } =
-      this.state;
-
+    const {
+      videoLink,
+      githubLink,
+      projectName,
+      complexity,
+      description,
+      category,
+    } = this.state;
     return (
       <div className="card-container">
         <Card
