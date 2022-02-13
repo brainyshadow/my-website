@@ -84,7 +84,7 @@ function Home() {
                 name="Resume Generator"
                 videoLink=""
                 projectLink=""
-                description="A python project that uses the FPDF libraries that generates a resume based on inputs given by the user."
+                description="A python project that uses the pdfkit library to generates a resume based on user input and the custom template selected by the user."
                 category="Hardware"
               />
             </div>
