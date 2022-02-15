@@ -34,18 +34,18 @@ function SkillsCard() {
           boxShadow: 1,
           fontWeight: "bold",
           margin: "1rem",
-          height: "20rem"
+          height: "20rem",
         }}
       >
         <CardHeader
           title={
-            <Typography variant="title" color="text.primary" >
+            <Typography variant="title" color="text.primary">
               Skills
             </Typography>
           }
-          sx={{margin: "0rem"}}
+          sx={{ margin: "0rem" }}
         ></CardHeader>
-        <Grid container spacing={2} columns={16} >
+        <Grid container spacing={2} columns={16}>
           <Grid item xs={5}>
             <Item
               sx={{
@@ -54,7 +54,7 @@ function SkillsCard() {
               }}
             >
               Languages
-              <Divider sx={{width: "75%", margin: "auto"}}></Divider>
+              <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
             </Item>
           </Grid>
           <Grid item xs={5}>
@@ -64,7 +64,7 @@ function SkillsCard() {
               }}
             >
               Framework/Libraries
-              <Divider sx={{width: "75%", margin: "auto"}}></Divider>
+              <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
             </Item>
           </Grid>
           <Grid item xs={5}>
@@ -74,7 +74,7 @@ function SkillsCard() {
               }}
             >
               Additional Tools
-              <Divider sx={{width: "75%", margin: "auto"}}></Divider>
+              <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
             </Item>
           </Grid>
         </Grid>
@@ -152,14 +152,7 @@ function SkillsCard() {
                   boxShadow: 0,
                 }}
               >
-                MongoDB
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Azure
+                Express.js
               </Item>
             </Grid>
             <Grid item xs={5}>
@@ -177,19 +170,28 @@ function SkillsCard() {
               >
                 Jira
               </Item>
-
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              ></Item>
               <Item
                 sx={{
                   boxShadow: 0,
                 }}
               >
-                Microsoft Office
+                MongoDB
               </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Azure
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                AWS
+              </Item>
+           
             </Grid>
             <Grid item xs={5}>
               <Item

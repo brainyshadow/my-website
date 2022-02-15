@@ -36,7 +36,7 @@ function Home() {
             }}
           >
             <div className="content-container-center">
-              <Typography variant="h3" color="text.primary" gutterBottom={true}>
+              <Typography variant="h4" color="text.primary" gutterBottom={true}>
                 Projects
               </Typography>
             </div>
