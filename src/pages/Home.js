@@ -85,8 +85,17 @@ function Home() {
                 videoLink=""
                 projectLink=""
                 description="A python project that uses the pdfkit library to generates a resume based on user input and the custom template selected by the user."
-                category="Hardware"
+                category="Software"
               />
+               <ProjectCard
+                complexity="Medium"
+                name="Textify Extension"
+                videoLink=""
+                projectLink=""
+                description="A chrome extension that will convert text in a image into text that can be copied and pasted by the user."
+                category="Software"
+              />
+             
             </div>
           </Paper>
         </div>
