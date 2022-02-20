@@ -36,7 +36,7 @@ function Home() {
             }}
           >
             <div className="content-container-center">
-              <Typography variant="h4" color="text.primary" gutterBottom={true}>
+              <Typography  variant="h4" color="text.primary" gutterBottom={true} sx={{margin: "1rem"}} >
                 Projects
               </Typography>
             </div>
