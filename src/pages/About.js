@@ -45,7 +45,7 @@ function About() {
                 A little more
               </Typography>
             </div>
-            
+
             <Divider
               sx={{
                 width: "90%",
@@ -53,13 +53,18 @@ function About() {
                 margin: "auto",
               }}
             ></Divider>
+
             <Typography
-              variant="body"
-              color="text.primary"
-              gutterBottom={true}
+              variant="body1"
+              color="text.secondary"
               sx={{ margin: "1rem" }}
             >
-             Here's where a bit of information about me will go.
+              You've already read a bit about me and what I like. Right away you
+              might be asking yourself what Brainy Shadow means. Well, in short,
+              it was a auto generated chess username that was given to me when I
+              created my chess acount. Now, I use this auto generated username
+              in a variety of places as it is an easy to remember, catchy
+              username.
             </Typography>
           </Paper>
         </div>

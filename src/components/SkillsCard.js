@@ -34,7 +34,7 @@ function SkillsCard() {
           boxShadow: 1,
           fontWeight: "bold",
           margin: "1rem",
-          height: "20rem",
+          height: "25rem",
         }}
       >
         <CardHeader
@@ -154,6 +154,13 @@ function SkillsCard() {
               >
                 Express.js
               </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Studio 3T
+              </Item>
             </Grid>
             <Grid item xs={5}>
               <Item
@@ -191,7 +198,6 @@ function SkillsCard() {
               >
                 AWS
               </Item>
-           
             </Grid>
             <Grid item xs={5}>
               <Item
