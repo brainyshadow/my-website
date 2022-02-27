@@ -25,7 +25,7 @@ function AboutMeCard() {
           boxShadow: 1,
           fontWeight: "bold",
           margin: "1rem ",
-          height: "25rem",
+          height: "21rem",
         }}
       >
         <CardHeader
@@ -50,11 +50,15 @@ function AboutMeCard() {
           }}
         ></Divider>
         <CardContent>
-          <Typography variant="body1" color="text.secondary">
+          <Typography
+            variant="body1"
+            color="text.secondary"
+            fontSize={"0.9rem"}
+          >
             I'm a young aspiring developer who loves to code! My hobbies include
             everything from mountain biking, to FPV drones, to chess, to cool
             projects. Of these projects I like everything from interactive web
-            development to low lovel hardware development.
+            development to low level hardware development.
           </Typography>
         </CardContent>
         <CardActions>

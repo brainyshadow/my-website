@@ -34,7 +34,7 @@ function SkillsCard() {
           boxShadow: 1,
           fontWeight: "bold",
           margin: "1rem",
-          height: "25rem",
+          height: "21rem",
         }}
       >
         <CardHeader
