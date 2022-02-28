@@ -8,7 +8,7 @@ import Paper from "@mui/material/Paper";
 import { Typography } from "@mui/material";
 import AboutMeCard from "../components/AboutMeCard";
 import SkillsCard from "../components/SkillsCard";
-
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -36,7 +36,12 @@ function Home() {
             }}
           >
             <div className="content-container-center">
-              <Typography  variant="h4" color="text.primary" gutterBottom={true} sx={{margin: "1rem"}} >
+              <Typography
+                variant="h4"
+                color="text.primary"
+                gutterBottom={true}
+                sx={{ margin: "1rem" }}
+              >
                 Projects
               </Typography>
             </div>
@@ -79,7 +84,7 @@ function Home() {
                 description="A table that has a one way mirror giving an LED strip controlled by a customer controller have an infity effect."
                 category="Hardware"
               />
-               <ProjectCard
+              <ProjectCard
                 complexity="Medium"
                 name="Resume Generator"
                 videoLink=""
@@ -87,7 +92,7 @@ function Home() {
                 description="A python project that uses the pdfkit library to generates a resume based on user input and the custom template selected by the user."
                 category="Software"
               />
-               <ProjectCard
+              <ProjectCard
                 complexity="Medium"
                 name="Textify Extension"
                 videoLink=""
@@ -95,11 +100,11 @@ function Home() {
                 description="A chrome extension that will convert text in a image into text that can be copied and pasted by the user."
                 category="Software"
               />
-             
             </div>
           </Paper>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

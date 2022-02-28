@@ -60,6 +60,7 @@ function AboutMeCard() {
             projects. Of these projects I like everything from interactive web
             development to low level hardware development.
           </Typography>
+          
         </CardContent>
         <CardActions>
           <Button size="small" href="/about">

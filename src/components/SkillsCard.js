@@ -108,7 +108,14 @@ function SkillsCard() {
                   boxShadow: 0,
                 }}
               >
-                C, C++, C#
+                C, C++
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                C#
               </Item>
               <Item
                 sx={{
@@ -175,13 +182,6 @@ function SkillsCard() {
                   boxShadow: 0,
                 }}
               >
-                Jira
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
                 MongoDB
               </Item>
               <Item
@@ -197,6 +197,20 @@ function SkillsCard() {
                 }}
               >
                 AWS
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Postman
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                Jira
               </Item>
             </Grid>
             <Grid item xs={5}>

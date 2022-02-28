@@ -9,6 +9,7 @@ import { Typography } from "@mui/material";
 import AboutMeCard from "../components/AboutMeCard";
 import SkillsCard from "../components/SkillsCard";
 import "../App.css";
+import Footer from "../components/Footer";
 
 function About() {
   return (
@@ -59,16 +60,34 @@ function About() {
               color="text.secondary"
               sx={{ margin: "1rem" }}
             >
-              You've already read a bit about me and what I like. Right away you
-              might be asking yourself what Brainy Shadow means. Well, in short,
-              it was a auto generated chess username that was given to me when I
-              created my chess acount. Now, I use this auto generated username
+              You've already read a bit about me and what I like. Right away,
+              you might be asking yourself what Brainy Shadow means. Well, there
+              is not that much to it. When I created my chess.com acount for the
+              first time, this is the . Now, I use this auto generated username
               in a variety of places as it is an easy to remember, catchy
               username.
+            </Typography>
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ margin: "1rem" }}
+            >
+              I have enjoyed coding for a while but at the end of 2021 I set a
+              personal goal to build as many fully functioning, usefull
+              programming projects as possible. I set this goal because I had
+              developemnt these skills through courses, reading and more but
+              really had nothing to show my skills. The first one of these
+              projects was this website. It's built using MUI, React, and
+              React-Bootstrap. From there, I built a few other web apps each
+              doing unuqie, usefull and intersting things. They have all been
+              fun and good practice to make and I hope you enjoy looking through
+              them. Take a look at my{" "}
+              <a href="https://github.com/brainyshadow">GitHub</a> to see more.
             </Typography>
           </Paper>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
