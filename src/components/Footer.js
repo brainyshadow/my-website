@@ -1,19 +1,21 @@
 import "../App.css";
 import { Typography } from "@mui/material";
 
+const date = new Date().getFullYear();
 const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div>
-          <Typography
-            variant="body1"
-            color="white"
-            sx={{ margin:"auto",display: "inline-block", verticalAlign: "middle" }}
-          >
-            Brainy Shadow
-          </Typography>
-        </div>
+        <Typography
+          variant="body1"
+          color="white"
+          sx={{
+            margin: "auto",
+            verticalAlign: "bottom",
+          }}
+        >
+          Brainy Shadow | &copy; {date}
+        </Typography>
       </div>
     </>
   );

@@ -12,9 +12,7 @@ import "../App.css";
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillYoutube } from "react-icons/ai";
 import { createTheme } from "@mui/material/styles";
-import { makeStyles } from '@mui/styles';
-
-
+import { makeStyles } from "@mui/styles";
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -23,7 +21,7 @@ class ProjectCard extends Component {
       videoLink: props.videoLink,
       githubLink: props.projectLink,
       projectName: props.name,
-      complexity: "Complexity: " + props.complexity,
+      complexity: props.complexity,
       description: props.description,
       category: props.category,
     };
@@ -38,6 +36,14 @@ class ProjectCard extends Component {
       description,
       category,
     } = this.state;
+    let color = "#6495ED";
+    if (complexity.toLowerCase() === "complex") {
+      color = "#FFA500";
+    }
+    if (complexity.toLowerCase() === "easy") {
+      color = "#99ff99";
+    }
+    const displayedComplext = "Complexity: " + complexity;
     return (
       <div className="card-container">
         <Card
@@ -75,8 +81,9 @@ class ProjectCard extends Component {
                 <AiFillYoutube className="nav-logo" />
               </a>
             </div>
-            <Typography fontWeight={300}>
-              <Chip label={complexity} color="primary" />
+
+            <Typography color="white" fontWeight={300}>
+              <Chip sx={{ backgroundColor: color }} label={displayedComplext} />
             </Typography>
           </Stack>
         </Card>

@@ -85,7 +85,7 @@ function Home() {
                 category="Hardware"
               />
               <ProjectCard
-                complexity="Medium"
+                complexity="Complex"
                 name="Resume Generator"
                 videoLink=""
                 projectLink=""
@@ -98,6 +98,22 @@ function Home() {
                 videoLink=""
                 projectLink=""
                 description="A chrome extension that will convert text in a image into text that can be copied and pasted by the user."
+                category="Software"
+              />
+              <ProjectCard
+                complexity="Medium"
+                name="Personal Website"
+                videoLink=""
+                projectLink=""
+                description="A webstie built using react to display some of my various projects and practice my web development skills."
+                category="Software"
+              />
+              <ProjectCard
+                complexity="Complex"
+                name="4-Bit Computer"
+                videoLink=""
+                projectLink=""
+                description="A breadboarded 4-Bit computer built using basic TTL ICs to execute a limited instruction set."
                 category="Software"
               />
             </div>
