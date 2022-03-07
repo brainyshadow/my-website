@@ -34,6 +34,15 @@ function Header() {
                 <NavDropdown.Item href="project4">
                   Resume Generator
                 </NavDropdown.Item>
+                <NavDropdown.Item href="project4">
+                  Textify Extension
+                </NavDropdown.Item>
+                <NavDropdown.Item href="project4">
+                  Personal Website
+                </NavDropdown.Item>
+                <NavDropdown.Item href="project4">
+                  4-Bit Computer
+                </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="spaced-link" href="/resume">
                 Résumé

@@ -93,7 +93,7 @@ function Home() {
                 category="Software"
               />
               <ProjectCard
-                complexity="Medium"
+                complexity="Complex"
                 name="Textify Extension"
                 videoLink=""
                 projectLink=""

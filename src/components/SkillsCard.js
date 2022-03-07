@@ -166,7 +166,14 @@ function SkillsCard() {
                   boxShadow: 0,
                 }}
               >
-                Studio 3T
+                Flask
+              </Item>
+              <Item
+                sx={{
+                  boxShadow: 0,
+                }}
+              >
+                AUTH0
               </Item>
             </Grid>
             <Grid item xs={5}>

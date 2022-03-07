@@ -58,7 +58,7 @@ function About() {
             <Typography
               variant="body1"
               color="text.secondary"
-              sx={{ margin: "1rem" }}
+              sx={{ margin: "2rem" }}
             >
               You've already read a bit about me and what I like. Right away,
               you might be asking yourself what Brainy Shadow means. Well, there
@@ -67,10 +67,11 @@ function About() {
               in a variety of places as it is an easy to remember, catchy
               username.
             </Typography>
+
             <Typography
               variant="body1"
               color="text.secondary"
-              sx={{ margin: "1rem" }}
+              sx={{ margin: "2rem" }}
             >
               I have enjoyed coding for a while but at the end of 2021 I set a
               personal goal to build as many fully functioning, usefull
@@ -79,9 +80,9 @@ function About() {
               really had nothing to show my skills. The first one of these
               projects was this website. It's built using MUI, React, and
               React-Bootstrap. From there, I built a few other web apps each
-              doing unuqie, usefull and intersting things. They have all been
-              fun and good practice to make and I hope you enjoy looking through
-              them. Take a look at my{" "}
+              doing unuqie, useful and intersting things. They have all been fun
+              and good practice to make. I hope you enjoy looking through them.
+              Take a look at my
               <a href="https://github.com/brainyshadow">GitHub</a> to see more.
             </Typography>
           </Paper>
