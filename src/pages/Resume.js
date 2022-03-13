@@ -1,6 +1,5 @@
 import "../App.css";
 import React, { Component } from "react";
-import ResumePDF from "../Media/Resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import Nav from "../components/Nav";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -24,12 +23,12 @@ class Resume extends Component {
           <Nav />
         </div>
         <div className="content-container-center">
-          <Document
-            style={{ display: "block", margin: "auto" }}
-            file={ResumePDF}
-          >
-            <Page pageNumber={1} />
-          </Document>
+          <iframe
+            src="https://drive.google.com/file/d/1MGSwyv_3GOdw50uSAPXfRYSVWRJz6XPB/preview"
+            width="70%"
+            height="800"
+            allow="autoplay"
+          ></iframe>
         </div>
       </>
     );
