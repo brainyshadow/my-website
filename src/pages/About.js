@@ -62,10 +62,10 @@ function About() {
             >
               You've already read a bit about me and what I like. Right away,
               you might be asking yourself what Brainy Shadow means. Well, there
-              is not that much to it. When I created my chess.com acount for the
-              first time, this is the . Now, I use this auto generated username
-              in a variety of places as it is an easy to remember, catchy
-              username.
+              is not that much to it. When I created my first chess acount and
+              this is now the username I use for a lot of my acounts. Now, I use
+              this auto generated username in a variety of places as it is an
+              easy to remember, catchy username.
             </Typography>
 
             <Typography
