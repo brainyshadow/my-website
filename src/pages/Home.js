@@ -89,7 +89,7 @@ function Home() {
                 name="Resume Generator"
                 videoLink=""
                 projectLink=""
-                description="A python project that uses the pdfkit library to generates a resume based on user input and the custom template selected by the user."
+                description="A python project that uses the pdfkit library to generates a resume based on user input and a custom template."
                 category="Software"
               />
               <ProjectCard

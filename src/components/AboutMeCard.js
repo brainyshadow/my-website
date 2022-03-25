@@ -12,6 +12,7 @@ import {
 import "../App.css";
 import { Grid } from "@mui/material";
 import { AiFillExclamationCircle } from "react-icons/ai";
+import MyAvitar from "../Media/MyAvitar.png";
 
 function AboutMeCard() {
   return (
@@ -32,7 +33,7 @@ function AboutMeCard() {
           avatar={
             <Avatar
               alt="Brainy Shadow"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_QjkzkjJUSlxg7a0bqL5qe2cncFScC_Y0aQ&usqp=CAU"
+              src={MyAvitar}
             />
           }
           subheader={

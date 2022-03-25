@@ -82,7 +82,7 @@ function About() {
               React-Bootstrap. From there, I built a few other web apps each
               doing unuqie, useful and intersting things. They have all been fun
               and good practice to make. I hope you enjoy looking through them.
-              Take a look at my
+              Take a look at my&nbsp;
               <a href="https://github.com/brainyshadow">GitHub</a> to see more.
             </Typography>
           </Paper>
