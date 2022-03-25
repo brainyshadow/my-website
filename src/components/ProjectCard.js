@@ -50,13 +50,18 @@ class ProjectCard extends Component {
           sx={{
             alignItems: "center",
             bgcolor: "#F5F5F5",
-            overflow: "hidden",
             borderRadius: "12px",
             boxShadow: 1,
             fontWeight: "bold",
+            width: "18rem"
           }}
         >
-          <Box sx={{ p: 2, display: "flex", width: "20rem" }}>
+          <Box
+            sx={{
+              p: 2,
+              display: "flex",
+            }}
+          >
             <Stack spacing={0.5}>
               <Typography fontWeight={700}>{projectName}</Typography>
               <Typography variant="body2" color="text.secondary">
