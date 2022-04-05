@@ -1,6 +1,6 @@
-import "../App.css";
+import "./Resume.css";
 import React, { Component } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
+import {  pdfjs } from "react-pdf";
 import Nav from "../components/Nav";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 

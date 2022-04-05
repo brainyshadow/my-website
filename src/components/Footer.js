@@ -1,4 +1,4 @@
-import "../App.css";
+import "./Footer.css";
 import { Typography } from "@mui/material";
 
 const date = new Date().getFullYear();

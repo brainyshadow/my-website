@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../components/Nav";
-import "../App.css";
 import { Button } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
 import { Divider } from "@mui/material";
@@ -8,7 +7,7 @@ import Paper from "@mui/material/Paper";
 import { Typography } from "@mui/material";
 import AboutMeCard from "../components/AboutMeCard";
 import SkillsCard from "../components/SkillsCard";
-import "../App.css";
+import "./About.css";
 import Footer from "../components/Footer";
 
 function About() {

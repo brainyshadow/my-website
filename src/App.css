@@ -37,58 +37,10 @@
   margin: 0rem;
 }
 
-.content-container {
-  width: 75%;
-  margin: auto;
-}
-
-.content-container-center {
-  display: flex;
-  width: 75%;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-}
-
-.title-container {
-  width: 75%;
-  margin: auto;
-  display: flex;
-}
-
 .divider-line {
   width: 100%;
 }
 
-.card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  margin: 1rem auto 1rem auto;
-}
-
-.project-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.footer {
-  text-align: center;
-  background-color: #212529;
-  text-align: center;
-  display: flex;
-  height: 4rem;
-}
-
 .spaced-link {
   margin: 0rem 1rem 0rem 1rem;
-}
-
-.grey-container {
-  background-color: #f5f5f5;
 }

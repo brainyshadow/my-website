@@ -9,9 +9,6 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
-import "../App.css";
-import { Grid } from "@mui/material";
-import { AiFillExclamationCircle } from "react-icons/ai";
 import MyAvitar from "../Media/MyAvitar.png";
 
 function AboutMeCard() {
@@ -30,12 +27,7 @@ function AboutMeCard() {
         }}
       >
         <CardHeader
-          avatar={
-            <Avatar
-              alt="Brainy Shadow"
-              src={MyAvitar}
-            />
-          }
+          avatar={<Avatar alt="Brainy Shadow" src={MyAvitar} />}
           subheader={
             <Typography variant="title" color="text.primary">
               Brainy Shadow
@@ -61,7 +53,6 @@ function AboutMeCard() {
             projects. Of these projects I like everything from interactive web
             development to low level hardware development.
           </Typography>
-          
         </CardContent>
         <CardActions>
           <Button size="small" href="/about">
