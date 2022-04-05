@@ -9,10 +9,9 @@ import {
 } from "@mui/material";
 import { Component } from "react";
 import "../App.css";
+import "./ProjectCard.css";
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillYoutube } from "react-icons/ai";
-import { createTheme } from "@mui/material/styles";
-import { makeStyles } from "@mui/styles";
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -41,7 +40,7 @@ class ProjectCard extends Component {
       color = "#FFA500";
     }
     if (complexity.toLowerCase() === "easy") {
-      color = "#99ff99";
+      color = "#33CC33";
     }
     const displayedComplext = "Complexity: " + complexity;
     return (
@@ -53,7 +52,7 @@ class ProjectCard extends Component {
             borderRadius: "12px",
             boxShadow: 1,
             fontWeight: "bold",
-            width: "18rem"
+            width: "18rem",
           }}
         >
           <Box

@@ -1,7 +1,5 @@
 import React from "react";
 import Nav from "../components/Nav";
-import "../App.css";
-import { Button } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
 import { Divider } from "@mui/material";
 import Paper from "@mui/material/Paper";
@@ -9,6 +7,7 @@ import { Typography } from "@mui/material";
 import AboutMeCard from "../components/AboutMeCard";
 import SkillsCard from "../components/SkillsCard";
 import Footer from "../components/Footer";
+import "./Home.css";
 
 function Home() {
   return (
@@ -42,7 +41,7 @@ function Home() {
                 gutterBottom={true}
                 sx={{ margin: "1rem" }}
               >
-                Projects
+                Favorite Projects
               </Typography>
             </div>
             <Divider
@@ -55,34 +54,12 @@ function Home() {
 
             <div className="project-container" id="main-area">
               <ProjectCard
-                complexity="Medium"
-                name="DDB V8"
-                videoLink="https://youtu.be/SYQoG84IRUQ"
-                projectLink="https://github.com/seb997a/DDB"
-                description="A developemnt platform that allows easy programming over USB using a open-source bootloader."
-              />
-              <ProjectCard
-                complexity="Medium"
-                name="LED Controller"
-                videoLink="https://www.youtube.com/watch?v=PgKoRlew9HA&ab_channel=SebA"
-                projectLink=""
-                description="A LED controller that controlls an addresable LED strip that can change colors based on surrounding music."
-              />
-              <ProjectCard
-                complexity="Medium"
-                name="Fooseball Scoreboard"
-                videoLink="https://www.youtube.com/watch?v=ESi4YN3UO08&ab_channel=SebA"
-                projectLink=""
-                description="A fooseball scoreboard that automatically senses goals and keeps track of the game's score."
-                category="Hardware"
-              />
-              <ProjectCard
-                complexity="Medium"
-                name="Infinity Table"
+                complexity="Easy"
+                name="Progress Bar Package"
                 videoLink=""
                 projectLink=""
-                description="A table that has a one way mirror giving an LED strip controlled by a customer controller have an infity effect."
-                category="Hardware"
+                description="A simple, NPM module that adds a progress bar with customizable, color, width, and height to a project."
+                category="Software"
               />
               <ProjectCard
                 complexity="Complex"
@@ -102,18 +79,26 @@ function Home() {
               />
               <ProjectCard
                 complexity="Medium"
-                name="Personal Website"
+                name="Screenshot Extension"
                 videoLink=""
                 projectLink=""
-                description="A webstie built using react to display some of my various projects and practice my web development skills."
+                description="A chrome extension that allows the user to take a quick screenshot whenever they need to."
                 category="Software"
               />
               <ProjectCard
-                complexity="Complex"
-                name="4-Bit Computer"
+                complexity="Medium"
+                name="Secure Password Generator"
                 videoLink=""
                 projectLink=""
-                description="A breadboarded 4-Bit computer built using basic TTL ICs to execute a limited instruction set."
+                description="A python project that generates a random, secure password that is a length of the users choosing."
+                category="Software"
+              />
+              <ProjectCard
+                complexity="Medium"
+                name="Pong"
+                videoLink=""
+                projectLink=""
+                description="A javascript game where the user can play pong with someone or againts the computer."
                 category="Software"
               />
             </div>
