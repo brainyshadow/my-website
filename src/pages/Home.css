@@ -9,14 +9,23 @@
 }
 
 .content-container {
-    width: 75%;
-    margin: auto;
-  }
-  
-  .content-container-center {
-    display: flex;
-    width: 75%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
+  width: 75%;
+  margin: auto;
+}
+
+.content-container-center {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

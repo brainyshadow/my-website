@@ -8,8 +8,9 @@ import {
   Chip,
 } from "@mui/material";
 import { Component } from "react";
-import "../App.css";
 import "./ProjectCard.css";
+
+import "../App.css";
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillYoutube } from "react-icons/ai";
 
@@ -52,7 +53,7 @@ class ProjectCard extends Component {
             borderRadius: "12px",
             boxShadow: 1,
             fontWeight: "bold",
-            width: "18rem",
+            width: "17rem",
           }}
         >
           <Box
