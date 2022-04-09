@@ -15,10 +15,10 @@ function Home() {
       <div className="grey-container">
         <Nav />
         <div className="title-container" id="main-area">
-          <div style={{ width: "25%" }}>
+          <div style={{ width: "30%" }}>
             <AboutMeCard />
           </div>
-          <div style={{ width: "75%" }}>
+          <div style={{ width: "70%" }}>
             <SkillsCard />
           </div>
         </div>

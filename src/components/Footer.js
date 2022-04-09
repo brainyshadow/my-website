@@ -14,7 +14,7 @@ const Footer = () => {
             verticalAlign: "bottom",
           }}
         >
-          Brainy Shadow | &copy; {date}
+          Seb Atkinson | &copy; {date}
         </Typography>
       </div>
     </>

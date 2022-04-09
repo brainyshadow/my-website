@@ -15,7 +15,6 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import "../App.css";
 
-
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(0),
@@ -34,96 +33,29 @@ function SkillsCard() {
           borderRadius: "12px",
           boxShadow: 1,
           fontWeight: "bold",
-          margin: "1rem",
-          height: "21rem",
+          margin: "1rem ",
+          height: "90%",
         }}
       >
-        <CardHeader
-          title={
-            <Typography variant="title" color="text.primary">
-              Skills
-            </Typography>
-          }
-          sx={{ margin: "0rem" }}
-        ></CardHeader>
-        <Grid container spacing={2} columns={16}>
-          <Grid item xs={5}>
-            <Item
-              sx={{
-                boxShadow: 0,
-                justifyContent: "center",
-              }}
-            >
-              Languages
-              <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
-            </Item>
-          </Grid>
-          <Grid item xs={5}>
-            <Item
-              sx={{
-                boxShadow: 0,
-              }}
-            >
-              Framework/Libraries
-              <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
-            </Item>
-          </Grid>
-          <Grid item xs={5}>
-            <Item
-              sx={{
-                boxShadow: 0,
-              }}
-            >
-              Additional Tools
-              <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
-            </Item>
-          </Grid>
-        </Grid>
-
-        <CardContent>
+        <div style={{ height: "90%", margin: "0" }}>
+          <CardHeader
+            title={
+              <Typography variant="title" color="text.primary">
+                Skills
+              </Typography>
+            }
+            sx={{ margin: "0rem" }}
+          ></CardHeader>
           <Grid container spacing={2} columns={16}>
             <Grid item xs={5}>
               <Item
                 sx={{
                   boxShadow: 0,
+                  justifyContent: "center",
                 }}
               >
-                Python
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Javascript, Typescript
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                HTML, CSS
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                C, C++
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                C#
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Java
+                Languages
+                <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
               </Item>
             </Grid>
             <Grid item xs={5}>
@@ -132,49 +64,8 @@ function SkillsCard() {
                   boxShadow: 0,
                 }}
               >
-                React
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Node.js
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Bootstrap
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                MUI
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Express.js
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Flask
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                AUTH0
+                Framework/Libraries
+                <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
               </Item>
             </Grid>
             <Grid item xs={5}>
@@ -183,58 +74,167 @@ function SkillsCard() {
                   boxShadow: 0,
                 }}
               >
-                Git, Github
+                Additional Tools
+                <Divider sx={{ width: "75%", margin: "auto" }}></Divider>
               </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                MongoDB
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Azure
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                AWS
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Postman
-              </Item>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              >
-                Jira
-              </Item>
-            </Grid>
-            <Grid item xs={5}>
-              <Item
-                sx={{
-                  boxShadow: 0,
-                }}
-              ></Item>
             </Grid>
           </Grid>
-        </CardContent>
-        <CardActions>
+          <CardContent>
+            <Grid container spacing={2} columns={16}>
+              <Grid item xs={5}>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Python
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Javascript, Typescript
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  HTML, CSS
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  C, C++
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  C#
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Java
+                </Item>
+              </Grid>
+              <Grid item xs={5}>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  React
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Node.js
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Bootstrap
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  MUI
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Express.js
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Flask
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  AUTH0
+                </Item>
+              </Grid>
+              <Grid item xs={5}>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Git, Github
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  MongoDB
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Azure
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  AWS
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Postman
+                </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Jira
+                </Item>
+              </Grid>
+              <Grid item xs={5}>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                ></Item>
+              </Grid>
+            </Grid>
+          </CardContent>
+        </div>
+        <div style={{ height: "10%", margin: "0" }}>
           <Button size="small" href="/resume">
-            See Resume
+            Resume
           </Button>
-        </CardActions>
+        </div>
       </Card>
     </>
   );

@@ -16,10 +16,10 @@ function About() {
       <div className="grey-container">
         <Nav />
         <div className="title-container" id="main-area">
-          <div style={{ width: "25%" }}>
+        <div style={{ width: "40%" }}>
             <AboutMeCard />
           </div>
-          <div style={{ width: "75%" }}>
+          <div style={{ width: "60%" }}>
             <SkillsCard />
           </div>
         </div>
@@ -59,12 +59,9 @@ function About() {
               color="text.secondary"
               sx={{ margin: "2rem" }}
             >
-              You've already read a bit about me and what I like. Right away,
-              you might be asking yourself what Brainy Shadow means. Well, there
-              is not that much to it. When I created my first chess acount and
-              this is now the username I use for a lot of my acounts. Now, I use
-              this auto generated username in a variety of places as it is an
-              easy to remember, catchy username.
+              Hi, my name is Seb. You've already read a bit about me so far but
+              here, you can get a better idea of who I am and what I am about.
+              Keep reading to find out a little more about me.
             </Typography>
 
             <Typography

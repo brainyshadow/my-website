@@ -11,48 +11,53 @@ function Header() {
     <>
       <Navbar collapseOnSelect expand="xl" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="home">Brainy Shadow</Navbar.Brand>
+          <Navbar.Brand href="home">Seb Atkinson</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link className="spaced-link" href="about">
                 About Me
               </Nav.Link>
-              <NavDropdown title="Projects" id="collasible-nav-dropdown">
+              <NavDropdown
+                className="spaced-link"
+                title="Projects"
+                id="collasible-nav-dropdown"
+              >
                 <NavDropdown.Item href="https://github.com/BrainyShadow/DDB">
-                  DDB V8
+                  Progress Bar Package
                 </NavDropdown.Item>
                 <NavDropdown.Item href="project2">
-                  LED Controller
+                  Resume Generator
                 </NavDropdown.Item>
                 <NavDropdown.Item href="project3">
                   Fooseball Scoreboard
                 </NavDropdown.Item>
                 <NavDropdown.Item href="project4">
-                  Infinity Table
-                </NavDropdown.Item>
-                <NavDropdown.Item href="project4">
-                  Resume Generator
-                </NavDropdown.Item>
-                <NavDropdown.Item href="project4">
                   Textify Extension
                 </NavDropdown.Item>
                 <NavDropdown.Item href="project4">
-                  Personal Website
+                  Screenshot Extension
                 </NavDropdown.Item>
                 <NavDropdown.Item href="project4">
-                  4-Bit Computer
+                  Secure Password Generator
                 </NavDropdown.Item>
+                <NavDropdown.Item href="project4">Pong</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="spaced-link" href="/resume">
                 Résumé
               </Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="https://github.com/brainyshadow">
+              <Nav.Link
+                href="https://github.com/brainyshadow"
+                className="spaced-link"
+              >
                 <GoMarkGithub className="nav-logo" />
               </Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/in/seb-a-67735621b">
+              <Nav.Link
+                href="https://www.linkedin.com/in/seb-a-67735621b"
+                className="spaced-link"
+              >
                 <AiFillLinkedin className="nav-logo" />
               </Nav.Link>
             </Nav>

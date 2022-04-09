@@ -3,9 +3,8 @@
 }
 
 .title-container {
-  width: 75%;
+  width: 100%;
   margin: auto;
-  display: flex;
 }
 
 .content-container {
