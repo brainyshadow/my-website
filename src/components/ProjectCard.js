@@ -12,13 +12,13 @@ import "./ProjectCard.css";
 
 import "../App.css";
 import { GoMarkGithub } from "react-icons/go";
-import { AiFillYoutube } from "react-icons/ai";
+import { AiFillInfoCircle } from "react-icons/ai";
 
 class ProjectCard extends Component {
   constructor(props) {
     super(props);
     const initialState = {
-      videoLink: props.videoLink,
+      moreInfoLink: props.moreInfoLink,
       githubLink: props.projectLink,
       projectName: props.name,
       complexity: props.complexity,
@@ -29,7 +29,7 @@ class ProjectCard extends Component {
   }
   render() {
     const {
-      videoLink,
+      moreInfoLink,
       githubLink,
       projectName,
       complexity,
@@ -51,7 +51,7 @@ class ProjectCard extends Component {
             alignItems: "center",
             bgcolor: "#F5F5F5",
             borderRadius: "12px",
-            boxShadow: 1,
+            boxShadow: 2,
             fontWeight: "bold",
             width: "17rem",
           }}
@@ -82,8 +82,8 @@ class ProjectCard extends Component {
               <a style={{ margin: "0.4rem" }} href={githubLink}>
                 <GoMarkGithub className="nav-logo" />
               </a>
-              <a style={{ margin: "0.4rem" }} href={videoLink}>
-                <AiFillYoutube className="nav-logo" />
+              <a style={{ margin: "0.4rem" }} href={moreInfoLink}>
+                <AiFillInfoCircle className="nav-logo" />
               </a>
             </div>
 

@@ -54,7 +54,7 @@ function AboutMeCard() {
             </Typography>
           </CardContent>
         </div>
-        <div style={{ height: "10%", margin: "0" }}>
+        <div style={{ height: "10%", margin: "0 0.5rem 0 0.5rem" }}>
           <Button size="small" href="/about">
             Learn More
           </Button>

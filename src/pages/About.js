@@ -16,10 +16,10 @@ function About() {
       <div className="grey-container">
         <Nav />
         <div className="title-container" id="main-area">
-        <div style={{ width: "40%" }}>
+        <div style={{ width: "30%" }}>
             <AboutMeCard />
           </div>
-          <div style={{ width: "60%" }}>
+          <div style={{ width: "70%" }}>
             <SkillsCard />
           </div>
         </div>

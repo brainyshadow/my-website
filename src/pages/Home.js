@@ -53,10 +53,11 @@ function Home() {
             ></Divider>
 
             <div className="project-container" id="main-area">
+
               <ProjectCard
                 complexity="Easy"
                 name="Progress Bar Package"
-                videoLink=""
+                moreInfoLink=""
                 projectLink=""
                 description="A simple, NPM module that adds a progress bar with customizable, color, width, and height to a project."
                 category="Software"
@@ -64,7 +65,7 @@ function Home() {
               <ProjectCard
                 complexity="Complex"
                 name="Resume Generator"
-                videoLink=""
+                moreInfoLink=""
                 projectLink=""
                 description="A python project that uses the pdfkit library to generates a resume based on user input and a custom template."
                 category="Software"
@@ -72,7 +73,7 @@ function Home() {
               <ProjectCard
                 complexity="Complex"
                 name="Textify Extension"
-                videoLink=""
+                moreInfoLink=""
                 projectLink=""
                 description="A chrome extension that will convert text in a image into text that can be copied and pasted by the user."
                 category="Software"
@@ -80,7 +81,7 @@ function Home() {
               <ProjectCard
                 complexity="Medium"
                 name="Screenshot Extension"
-                videoLink=""
+                moreInfoLink=""
                 projectLink=""
                 description="A chrome extension that allows the user to take a quick screenshot whenever they need to."
                 category="Software"
@@ -88,7 +89,7 @@ function Home() {
               <ProjectCard
                 complexity="Medium"
                 name="Secure Password Generator"
-                videoLink=""
+                moreInfoLink=""
                 projectLink=""
                 description="A python project that generates a random, secure password that is a length of the users choosing."
                 category="Software"
@@ -96,7 +97,7 @@ function Home() {
               <ProjectCard
                 complexity="Medium"
                 name="Pong"
-                videoLink=""
+                moreInfoLink=""
                 projectLink=""
                 description="A javascript game where the user can play pong with someone or againts the computer."
                 category="Software"
