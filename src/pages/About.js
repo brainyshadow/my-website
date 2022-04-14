@@ -15,12 +15,14 @@ function About() {
     <>
       <div className="grey-container">
         <Nav />
-        <div className="title-container" id="main-area">
-        <div style={{ width: "30%" }}>
-            <AboutMeCard />
-          </div>
-          <div style={{ width: "70%" }}>
-            <SkillsCard />
+        <div className="title-container">
+          <div className="large-card-container ">
+            <div className="about-me-container">
+              <AboutMeCard />
+            </div>
+            <div className="skills-card-container">
+              <SkillsCard />
+            </div>
           </div>
         </div>
         <div className="content-container">

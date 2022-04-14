@@ -2,15 +2,11 @@
   background-color: #f5f5f5;
 }
 
-.title-container {
-  width: 100%;
-  margin: auto;
-}
-
 .content-container {
   width: 75%;
   margin: auto;
 }
+
 
 .content-container-center {
   display: flex;
@@ -27,4 +23,38 @@
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.title-container {
+  margin: auto;
+  display: inline;
+}
+
+@media (max-width: 1000px) {
+  .large-card-container {
+    margin: 0;
+    display: inline;
+  }
+  .about-me-container {
+    width: 100%;
+  }
+  .skills-card-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .large-card-container {
+    margin: 0;
+    display: flex;
+
+  }
+  .about-me-container {
+    width: 30%;
+    height: 100%;
+  }
+  .skills-card-container {
+    width: 70%;
+    height: 100%;
+  }
 }

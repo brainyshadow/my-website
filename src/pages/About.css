@@ -8,6 +8,11 @@
   display: flex;
 }
 
+.stacked-title-container {
+  width: 75%;
+  margin: auto;
+}
+
 .content-container {
   width: 75%;
   margin: auto;
