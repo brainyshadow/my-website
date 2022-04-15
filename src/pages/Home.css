@@ -63,16 +63,18 @@
   .large-card-container {
     margin: 0;
     padding: 0;
+    height: 27.5rem;
     display: flex; /* equal height of the children */
+
   }
   .my-about-me-container {
-    width: 30%;
     height: 100%;
+    width: 30%;
     margin: 0rem;
   }
   .my-skills-card-container {
-    width: 70%;
     height: 100%;
+    width: 70%;
     margin: 0rem;
   }
 }

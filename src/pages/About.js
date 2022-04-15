@@ -15,17 +15,17 @@ function About() {
     <>
       <div className="grey-container">
         <Nav />
-        <div className="title-container">
-          <div className="large-card-container ">
-            <div className="about-me-container">
-              <AboutMeCard />
-            </div>
-            <div className="skills-card-container">
-              <SkillsCard />
+        <div className="my-content-container">
+          <div className="my-title-container">
+            <div className="large-card-container">
+              <div className="my-about-me-container">
+                <AboutMeCard />
+              </div>
+              <div className="my-skills-card-container">
+                <SkillsCard />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="content-container">
           <Paper
             sx={{
               alignItems: "center",
