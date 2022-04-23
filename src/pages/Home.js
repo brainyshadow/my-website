@@ -17,10 +17,10 @@ function Home() {
         <div className="my-content-container">
           <div className="my-title-container">
             <div className="large-card-container">
-              <div className="my-about-me-container" >
+              <div className="my-about-me-container">
                 <AboutMeCard />
               </div>
-              <div className="my-skills-card-container" >
+              <div className="my-skills-card-container">
                 <SkillsCard />
               </div>
             </div>
@@ -61,6 +61,7 @@ function Home() {
                 projectLink=""
                 description="A simple, NPM module that adds a progress bar with customizable, color, width, and height to a project."
                 category="Software"
+                toolsUsed={["typescript"]}
               />
               <ProjectCard
                 complexity="Complex"
@@ -69,14 +70,16 @@ function Home() {
                 projectLink=""
                 description="A python project that uses the pdfkit library to generates a resume based on user input and a custom template."
                 category="Software"
+                toolsUsed={["react", "python", "flask", "javascript"]}
               />
               <ProjectCard
-                complexity="Complex"
-                name="Textify Extension"
+                complexity="Medium"
+                name="College Management System"
                 moreInfoLink=""
                 projectLink=""
-                description="A chrome extension that will convert text in a image into text that can be copied and pasted by the user."
+                description="A system that could be used to manage a large group of students, with many unique attributes."
                 category="Software"
+                toolsUsed={["sql"]}
               />
               <ProjectCard
                 complexity="Medium"
@@ -85,6 +88,7 @@ function Home() {
                 projectLink=""
                 description="A chrome extension that allows the user to take a quick screenshot whenever they need to."
                 category="Software"
+                toolsUsed={["javascript"]}
               />
               <ProjectCard
                 complexity="Medium"
@@ -93,6 +97,7 @@ function Home() {
                 projectLink=""
                 description="A python project that generates a random, secure password that is a length of the users choosing."
                 category="Software"
+                toolsUsed={["python"]}
               />
               <ProjectCard
                 complexity="Medium"
@@ -101,6 +106,7 @@ function Home() {
                 projectLink=""
                 description="A javascript game where the user can play pong with someone or againts the computer."
                 category="Software"
+                toolsUsed={["javascript"]}
               />
             </div>
           </Paper>

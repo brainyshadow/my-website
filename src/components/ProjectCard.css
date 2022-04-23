@@ -1,5 +1,4 @@
 .card-container {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,4 +8,19 @@
 
 .nav-logo {
   font-size: 150%;
+}
+
+.my-tool-logo {
+  margin: 0rem 0.3rem 0rem 0.3rem;
+}
+
+.display-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.centered {
+  align-content: center;
+  margin: auto;
 }

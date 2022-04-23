@@ -44,7 +44,7 @@ function Header() {
                 <NavDropdown.Item href="project4">Pong</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="spaced-link" href="/resume">
-                Résumé
+                Resume
               </Nav.Link>
             </Nav>
             <Nav>
