@@ -1,8 +1,8 @@
 import { Card, Box, Stack, Typography, Divider, Chip } from "@mui/material";
 import { Component } from "react";
+import React from "react";
 import "./ProjectCard.css";
 import { FaPython } from "react-icons/fa";
-import "../App.css";
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillInfoCircle } from "react-icons/ai";
 import djangoLogo from "../Media/django.png";
@@ -17,6 +17,8 @@ import pythonLogo from "../Media/python.png";
 import cSharpLogo from "../Media/cSharp.png";
 import typescriptLogo from "../Media/typescript.png";
 import reactLogo from "../Media/react.png";
+import sqlLogo from "../Media/sql.png";
+import mongoLogo from "../Media/mongo.png";
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -53,7 +55,8 @@ class ProjectCard extends Component {
       displaySecondaryContent,
     } = this.state;
     let icons = [];
-    const lowerCaseTools = toolsUsed;
+    const lowerCaseTools = toolsUsed?.map((tool) => tool.toLowerCase());
+
     if (lowerCaseTools?.includes("python")) {
       icons.push(<img className="my-tool-logo" height={40} src={pythonLogo} />);
     }
@@ -95,6 +98,12 @@ class ProjectCard extends Component {
     if (lowerCaseTools?.includes("react")) {
       icons.push(<img className="my-tool-logo" height={40} src={reactLogo} />);
     }
+    if (lowerCaseTools?.includes("mongodb")) {
+      icons.push(<img className="my-tool-logo" height={40} src={mongoLogo} />);
+    }
+    if (lowerCaseTools?.includes("sql")) {
+      icons.push(<img className="my-tool-logo" height={40} src={sqlLogo} />);
+    }
 
     let color = "#6495ED";
     if (complexity.toLowerCase() === "complex") {
@@ -127,7 +136,9 @@ class ProjectCard extends Component {
                 onMouseLeave={() => this.hideSecondaryContent()}
               >
                 <div className="display-container">
-                  <div className="centered">{icons}</div>
+                  <div className="centered">
+                    {React.Children.toArray(icons).map((child) => child)}
+                  </div>
                 </div>
               </Box>
             </>

@@ -70,7 +70,13 @@ function Home() {
                 projectLink=""
                 description="A python project that uses the pdfkit library to generates a resume based on user input and a custom template."
                 category="Software"
-                toolsUsed={["react", "python", "flask", "javascript"]}
+                toolsUsed={[
+                  "react",
+                  "python",
+                  "flask",
+                  "javascript",
+                  "mongodb",
+                ]}
               />
               <ProjectCard
                 complexity="Medium"
