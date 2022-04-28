@@ -5,6 +5,8 @@
 }
 
 .project-container {
+  max-width: 60rem;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +67,6 @@
     padding: 0;
     height: 27.5rem;
     display: flex; /* equal height of the children */
-
   }
   .my-about-me-container {
     height: 100%;
