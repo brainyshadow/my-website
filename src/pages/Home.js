@@ -56,17 +56,15 @@ function Home() {
             <div className="project-container" id="main-area">
               <ProjectCard
                 complexity="Easy"
-                name="Progress Bar Package"
-                moreInfoLink=""
+                name="My Website"
                 projectLink=""
-                description="A simple, NPM module that adds a progress bar with customizable, color, width, and height to a project."
+                description="The react web app that is currently displaying the content. It uses a combination of JavaScript, JSX, and CSS to produce the stylish, dynamic content."
                 category="Software"
-                toolsUsed={["typescript"]}
+                toolsUsed={["javascript", "react"]}
               />
               <ProjectCard
                 complexity="Complex"
                 name="Resume Generator"
-                moreInfoLink=""
                 projectLink=""
                 description="A python project that uses the pdfkit library to generates a resume based on user input and a custom template."
                 category="Software"
@@ -81,7 +79,6 @@ function Home() {
               <ProjectCard
                 complexity="Medium"
                 name="College Management System"
-                moreInfoLink=""
                 projectLink=""
                 description="A system that could be used to manage a large group of students, with many unique attributes."
                 category="Software"
@@ -90,7 +87,6 @@ function Home() {
               <ProjectCard
                 complexity="Medium"
                 name="Screenshot Extension"
-                moreInfoLink=""
                 projectLink=""
                 description="A chrome extension that allows the user to take a quick screenshot whenever they need to."
                 category="Software"
@@ -99,7 +95,6 @@ function Home() {
               <ProjectCard
                 complexity="Medium"
                 name="Secure Password Generator"
-                moreInfoLink=""
                 projectLink=""
                 description="A python project that generates a random, secure password that is a length of the users choosing."
                 category="Software"
@@ -108,7 +103,6 @@ function Home() {
               <ProjectCard
                 complexity="Medium"
                 name="Pong"
-                moreInfoLink=""
                 projectLink=""
                 description="A javascript game where the user can play pong with someone or againts the computer."
                 category="Software"

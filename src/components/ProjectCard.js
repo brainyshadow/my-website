@@ -24,7 +24,6 @@ class ProjectCard extends Component {
   constructor(props) {
     super(props);
     const initialState = {
-      moreInfoLink: props.moreInfoLink,
       githubLink: props.projectLink,
       projectName: props.name,
       complexity: props.complexity,
@@ -46,7 +45,6 @@ class ProjectCard extends Component {
 
   render() {
     const {
-      moreInfoLink,
       githubLink,
       projectName,
       complexity,
@@ -122,7 +120,7 @@ class ProjectCard extends Component {
             borderRadius: "12px",
             boxShadow: 2,
             fontWeight: "bold",
-            width: "17rem",
+            width: "22rem",
           }}
         >
           {displaySecondaryContent ? (
@@ -173,9 +171,6 @@ class ProjectCard extends Component {
             <div>
               <a style={{ margin: "0.4rem" }} href={githubLink}>
                 <GoMarkGithub className="nav-logo" />
-              </a>
-              <a style={{ margin: "0.4rem" }} href={moreInfoLink}>
-                <AiFillInfoCircle className="nav-logo" />
               </a>
             </div>
 
