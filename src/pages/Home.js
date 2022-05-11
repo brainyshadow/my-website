@@ -43,6 +43,91 @@ function Home() {
                 gutterBottom={true}
                 sx={{ margin: "1rem" }}
               >
+                Work Experience
+              </Typography>
+            </div>
+            <Divider
+              sx={{
+                width: "90%",
+                display: "flex",
+                margin: "auto",
+              }}
+            ></Divider>
+            <div className="project-container" id="main-area">
+              <ProjectCard
+                complexity="Easy"
+                name="My Website"
+                projectLink=""
+                description="The react web app that is currently displaying the content. It uses a combination of JavaScript, JSX, and CSS to produce the stylish, dynamic content."
+                category="Software"
+                toolsUsed={["javascript", "react"]}
+              />
+              <ProjectCard
+                complexity="Complex"
+                name="Resume Generator"
+                projectLink=""
+                description="A python project that uses the pdfkit library to generates a resume based on user input and a custom template."
+                category="Software"
+                toolsUsed={[
+                  "react",
+                  "python",
+                  "flask",
+                  "javascript",
+                  "mongodb",
+                ]}
+              />
+              <ProjectCard
+                complexity="Medium"
+                name="College Management System"
+                projectLink=""
+                description="A system that could be used to manage a large group of students, with many unique attributes."
+                category="Software"
+                toolsUsed={["sql"]}
+              />
+              <ProjectCard
+                complexity="Medium"
+                name="Screenshot Extension"
+                projectLink=""
+                description="A chrome extension that allows the user to take a quick screenshot whenever they need to."
+                category="Software"
+                toolsUsed={["javascript"]}
+              />
+              <ProjectCard
+                complexity="Medium"
+                name="Secure Password Generator"
+                projectLink=""
+                description="A python project that generates a random, secure password that is a length of the users choosing."
+                category="Software"
+                toolsUsed={["python"]}
+              />
+              <ProjectCard
+                complexity="Medium"
+                name="Pong"
+                projectLink=""
+                description="A javascript game where the user can play pong with someone or againts the computer."
+                category="Software"
+                toolsUsed={["javascript"]}
+              />
+            </div>
+          </Paper>
+          <Paper
+            sx={{
+              alignItems: "center",
+              bgcolor: "background.paper",
+              overflow: "hidden",
+              borderRadius: "12px",
+              boxShadow: 3,
+              fontWeight: "bold",
+              margin: "1rem",
+            }}
+          >
+            <div className="content-container-center">
+              <Typography
+                variant="h4"
+                color="text.primary"
+                gutterBottom={true}
+                sx={{ margin: "1rem" }}
+              >
                 Favorite Projects
               </Typography>
             </div>
