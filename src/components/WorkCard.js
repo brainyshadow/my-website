@@ -39,7 +39,9 @@ function WorkCard(props) {
         <table className="card-table">
           <tr>
             <th rowSpan="2" style={{ width: "10%" }}>
-              <img width={40} src={companyLogo} className="photo"></img>
+              <div className="photo-holder">
+                <img width={40} src={companyLogo}></img>
+              </div>
             </th>
             <th className="company-name" style={{ width: "50%" }}>
               <Typography fontWeight={700}>{companyName}</Typography>
