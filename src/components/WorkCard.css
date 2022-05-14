@@ -5,12 +5,48 @@
 
   width: 46rem;
 
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin: 1rem 0 1rem 0;
-  border: 1px solid #DCDCDC;
+  border: 0.5px solid #dcdcdc;
 }
 
-.photo{
+.photo {
   border-radius: 50%;
-  margin: 1rem;
+  margin: 0.5rem;
+}
+
+.card-table {
+  width: 100%;
+}
+
+.company-name {
+  padding: 0.5;
+  text-align: left;
+}
+
+.job-description {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.date-section {
+  padding: 0.5;
+
+  text-align: right;
+  height: 100%;
+  margin: 0;
+}
+
+.date {
+  font-weight: 200;
+  margin: 0;
+  color: #696969;
+}
+
+.work-details{
+  width: 100%;
+}
+
+.work-details-text{
+  font-weight: 300;
 }

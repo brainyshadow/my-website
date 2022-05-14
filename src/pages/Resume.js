@@ -1,6 +1,6 @@
 import "./Resume.css";
 import React, { Component } from "react";
-import {  pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import Nav from "../components/Nav";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -24,7 +24,7 @@ class Resume extends Component {
         </div>
         <div className="content-container-center">
           <iframe
-            src="https://drive.google.com/file/d/1MGSwyv_3GOdw50uSAPXfRYSVWRJz6XPB/preview"
+            src="https://drive.google.com/file/d/1ArlaxE4Moh-91KEBf7rBXji6K0o26hyo/preview"
             width="70%"
             height="800"
             allow="autoplay"

@@ -114,7 +114,7 @@ class ProjectCard extends Component {
     if (complexity.toLowerCase() === "easy") {
       color = "#33CC33";
     }
-    const displayedComplext = "Complexity: " + complexity;
+    const displayedComplexity = "Complexity: " + complexity;
     return (
       <div className="card-container">
         <Card
@@ -179,7 +179,7 @@ class ProjectCard extends Component {
             </div>
 
             <Typography color="white" fontWeight={300}>
-              <Chip sx={{ backgroundColor: color }} label={displayedComplext} />
+              <Chip sx={{ backgroundColor: color }} label={displayedComplexity} />
             </Typography>
           </Stack>
         </Card>

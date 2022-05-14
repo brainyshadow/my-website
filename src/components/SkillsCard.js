@@ -33,7 +33,8 @@ function SkillsCard() {
           borderRadius: "12px",
           boxShadow: 1,
           fontWeight: "bold",
-          margin: "1rem ",
+          margin: "1rem 1rem 0rem 1rem",
+
           height: "90%",
         }}
       >
