@@ -24,7 +24,7 @@ class Resume extends Component {
         </div>
         <div className="content-container-center">
           <iframe
-            src="https://drive.google.com/file/d/1ArlaxE4Moh-91KEBf7rBXji6K0o26hyo/preview"
+            src="https://drive.google.com/file/d/1hjm-SNHS9vcfJha8WgKfEaODCi_MsRDC/preview"
             width="70%"
             height="800"
             allow="autoplay"

@@ -19,7 +19,8 @@ import typescriptLogo from "../Media/typescript.png";
 import reactLogo from "../Media/react.png";
 import sqlLogo from "../Media/sql.png";
 import mongoLogo from "../Media/mongo.png";
-import hardwareLogo from "../Media/hardware.png"
+import hardwareLogo from "../Media/hardware.png";
+import qtLogo from "../Media/QT.png";
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -104,7 +105,12 @@ class ProjectCard extends Component {
       icons.push(<img className="my-tool-logo" height={40} src={sqlLogo} />);
     }
     if (lowerCaseTools?.includes("hardware")) {
-      icons.push(<img className="my-tool-logo" height={40} src={hardwareLogo} />);
+      icons.push(
+        <img className="my-tool-logo" height={40} src={hardwareLogo} />
+      );
+    }
+    if (lowerCaseTools?.includes("qt")) {
+      icons.push(<img className="my-tool-logo" height={40} src={qtLogo} />);
     }
 
     let color = "#6495ED";
@@ -179,7 +185,10 @@ class ProjectCard extends Component {
             </div>
 
             <Typography color="white" fontWeight={300}>
-              <Chip sx={{ backgroundColor: color }} label={displayedComplexity} />
+              <Chip
+                sx={{ backgroundColor: color }}
+                label={displayedComplexity}
+              />
             </Typography>
           </Stack>
         </Card>

@@ -131,7 +131,7 @@ function Home() {
                 projectLink="https://github.com/BrainyShadow/secure-password-generator"
                 description="A python project that generates a random, secure password that is a length of the users choosing."
                 category="Software"
-                toolsUsed={["python"]}
+                toolsUsed={["python", "qt"]}
               />
               <ProjectCard
                 complexity="Medium"

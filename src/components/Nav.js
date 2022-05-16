@@ -23,25 +23,9 @@ function Header() {
                 title="Projects"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item href="https://github.com/BrainyShadow/DDB">
-                  Progress Bar Package
+                <NavDropdown.Item href="https://github.com/BrainyShadow">
+                  GitHub
                 </NavDropdown.Item>
-                <NavDropdown.Item href="project2">
-                  Resume Generator
-                </NavDropdown.Item>
-                <NavDropdown.Item href="project3">
-                  Fooseball Scoreboard
-                </NavDropdown.Item>
-                <NavDropdown.Item href="project4">
-                  Textify Extension
-                </NavDropdown.Item>
-                <NavDropdown.Item href="project4">
-                  Screenshot Extension
-                </NavDropdown.Item>
-                <NavDropdown.Item href="project4">
-                  Secure Password Generator
-                </NavDropdown.Item>
-                <NavDropdown.Item href="project4">Pong</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="spaced-link" href="/resume">
                 Resume

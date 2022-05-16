@@ -33,7 +33,7 @@ function SkillsCard() {
           borderRadius: "12px",
           boxShadow: 1,
           fontWeight: "bold",
-          margin: "1rem 1rem 0rem 1rem",
+          margin: "1rem 1rem 1rem 1rem",
 
           height: "90%",
         }}
@@ -125,6 +125,13 @@ function SkillsCard() {
                 >
                   Java
                 </Item>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  SQL
+                </Item>
               </Grid>
               <Grid item xs={5}>
                 <Item
@@ -178,6 +185,13 @@ function SkillsCard() {
                 </Item>
               </Grid>
               <Grid item xs={5}>
+                <Item
+                  sx={{
+                    boxShadow: 0,
+                  }}
+                >
+                  Unix
+                </Item>
                 <Item
                   sx={{
                     boxShadow: 0,
