@@ -30,12 +30,11 @@ function SkillsCard() {
         sx={{
           alignItems: "center",
           bgcolor: "background.paper",
-          borderRadius: "12px",
-          boxShadow: 1,
+          borderRadius: "2px",
+          boxShadow: 0,
           fontWeight: "bold",
-          margin: "1rem 1rem 1rem 1rem",
-
-          height: "90%",
+          margin: "0.5rem",
+          height: "100%",
         }}
       >
         <div style={{ height: "90%", margin: "0" }}>

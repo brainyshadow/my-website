@@ -31,10 +31,10 @@ function Home() {
               alignItems: "center",
               bgcolor: "background.paper",
               overflow: "hidden",
-              borderRadius: "12px",
-              boxShadow: 3,
+              borderRadius: "2px",
+              boxShadow: 0,
               fontWeight: "bold",
-              margin: "0rem 1rem 1rem 1rem",
+              margin: "1rem 0.5rem 0.5rem 0.5rem",
             }}
           >
             <div className="content-container-center">
@@ -87,10 +87,10 @@ function Home() {
               alignItems: "center",
               bgcolor: "background.paper",
               overflow: "hidden",
-              borderRadius: "12px",
-              boxShadow: 3,
+              borderRadius: "2px",
+              boxShadow: 0,
               fontWeight: "bold",
-              margin: "1rem",
+              margin: "0.5rem 0.5rem 0.5rem 0.5rem",
             }}
           >
             <div className="content-container-center">

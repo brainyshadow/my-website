@@ -31,10 +31,10 @@ function About() {
               alignItems: "center",
               bgcolor: "background.paper",
               overflow: "hidden",
-              borderRadius: "12px",
-              boxShadow: 3,
+              borderRadius: "2px",
+              boxShadow: 0,
               fontWeight: "bold",
-              margin: "1rem",
+              margin: "1rem 0.5rem 0.5rem 0.5rem",
             }}
           >
             <div className="content-container-center">
@@ -50,7 +50,7 @@ function About() {
 
             <Divider
               sx={{
-                width: "90%",
+                width: "100%",
                 display: "flex",
                 margin: "auto",
               }}
